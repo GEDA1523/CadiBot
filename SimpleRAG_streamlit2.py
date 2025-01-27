@@ -26,7 +26,8 @@ load_dotenv()
 load_dotenv('/Users/L01356196/Downloads/CADI_2025_LLMs-main/CADI_2025_LLMs-main/.env')
 api_key= os.getenv('GROQ_API_KEY')
 
-model_name = 'llama-3.1-70b-versatile'
+#model_name = 'llama-3.1-70b-versatile'
+model_name = 'llama3-70b-8192'
 
 groq_chat = ChatGroq(
         groq_api_key=api_key,
